@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB PEMINJAMAN ALAT LAB RPL</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <div class="logo-icon">💻</div>
+                <div>
+                    <h1>WEB PEMINJAMAN ALAT LAB RPL</h1>
+                    <p>Sistem Informasi Laboratorium</p>
+                </div>
+            </div>
+
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#daftar-alat">Daftar Alat</a></li>
+                    <li><a href="#form-pinjam">Form Peminjaman</a></li>
+                    <li><a href="#lokasi">Lokasi</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- BERANDA -->
+        <section id="beranda" class="hero">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <p class="label">SELAMAT DATANG</p>
+
+                    <h2>
+                        Pusat Informasi
+                        <span>Laboratorium RPL</span>
+                    </h2>
+
+                    <p>
+                        Portal informasi laboratorium untuk membantu siswa
+                        mengetahui fasilitas lab dan melakukan peminjaman
+                        peralatan praktik dengan mudah.
+                    </p>
+
+                    <a href="#form-pinjam" class="tombol-utama">
+                        Pinjam Alat
+                    </a>
+                </div>
+
+                <div class="hero-image">
+                    <img src="assets/labolatorium.jpg"
+                         alt="Gambar Laboratorium RPL">
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- INFORMASI -->
+        <section class="informasi">
+            <div class="container">
+
+                <div class="section-title">
+                    <p class="label">INFORMASI</p>
+                    <h2>Fasilitas Laboratorium</h2>
+                </div>
+
+                <div class="card-container">
+
+                    <article class="card">
+                        <div class="card-icon">🖥️</div>
+                        <h3>Komputer</h3>
+                        <p>
+                            Komputer digunakan untuk kegiatan praktik
+                            pemrograman dan pengembangan perangkat lunak.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">🌐</div>
+                        <h3>Jaringan</h3>
+                        <p>
+                            Tersedia berbagai perangkat jaringan untuk
+                            mendukung praktik jaringan komputer.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-icon">🛠️</div>
+                        <h3>Peralatan Praktik</h3>
+                        <p>
+                            Berbagai peralatan praktik dapat digunakan
+                            siswa sesuai kebutuhan pembelajaran.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- DAFTAR ALAT -->
+        <section id="daftar-alat" class="alat">
+            <div class="container">
+
+                <div class="section-title">
+                    <p class="label">INVENTARIS</p>
+                    <h2>Daftar Alat Laboratorium</h2>
+                </div>
+
+                <div class="table-wrapper">
+                    <table>
+
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>Nama Alat</th>
+                                <th>Jumlah</th>
+                                <th>Kondisi</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Kabel UTP</td>
+                                <td>20</td>
+                                <td>Baik</td>
+                                <td><span class="tersedia">Tersedia</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>Router</td>
+                                <td>5</td>
+                                <td>Baik</td>
+                                <td><span class="tersedia">Tersedia</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>Tang Crimping</td>
+                                <td>10</td>
+                                <td>Baik</td>
+                                <td><span class="tersedia">Tersedia</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>4</td>
+                                <td>Switch</td>
+                                <td>8</td>
+                                <td>Baik</td>
+                                <td><span class="tersedia">Tersedia</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>5</td>
+                                <td>Tester Kabel</td>
+                                <td>7</td>
+                                <td>Baik</td>
+                                <td><span class="tersedia">Tersedia</span></td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- PROSEDUR -->
+        <section class="prosedur">
+            <div class="container prosedur-content">
+
+                <div>
+                    <p class="label">PROSEDUR</p>
+                    <h2>Langkah Peminjaman Alat</h2>
+
+                    <ol>
+                        <li>Isi data diri pada form peminjaman.</li>
+                        <li>Pilih alat yang ingin dipinjam.</li>
+                        <li>Pilih tanggal peminjaman.</li>
+                        <li>Pastikan data yang dimasukkan sudah benar.</li>
+                        <li>Klik tombol "Ajukan Peminjaman".</li>
+                        <li>Tunggu konfirmasi dari petugas laboratorium.</li>
+                    </ol>
+                </div>
+
+                <aside class="aside-box">
+                    <h3>Jam Operasional Lab</h3>
+
+                    <p>
+                        <strong>Senin - Jumat</strong><br>
+                        07.00 - 16.00 WIB
+                    </p>
+
+                    <hr>
+
+                    <h3>Aturan Peminjaman</h3>
+
+                    <p>
+                        <strong>Harap menjaga</strong> peralatan yang
+                        dipinjam dan mengembalikannya tepat waktu.
+                    </p>
+
+                    <p>
+                        <em>Kerusakan alat akibat kelalaian menjadi
+                        tanggung jawab peminjam.</em>
+                    </p>
+                </aside>
+
+            </div>
+        </section>
+
+
+        <!-- FORM PEMINJAMAN -->
+        <section id="form-pinjam" class="form-section">
+            <div class="container">
+
+                <div class="section-title">
+                    <p class="label">PEMINJAMAN</p>
+                    <h2>Form Peminjaman Alat</h2>
+                    <p>
+                        Silakan isi data berikut untuk mengajukan
+                        peminjaman peralatan laboratorium.
+                    </p>
+                </div>
+
+                <form
+                    method="POST"
+                    action="proses_peminjaman.php"
+                    class="form-peminjaman"
+                >
+
+                    <div class="form-group">
+                        <label for="nama">Nama Siswa</label>
+                        <input
+                            type="text"
+                            id="nama"
+                            name="nama"
+                            placeholder="Masukkan nama lengkap"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="contoh@email.com"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="nisn">NISN</label>
+                        <input
+                            type="number"
+                            id="nisn"
+                            name="nisn"
+                            placeholder="Masukkan NISN"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tanggal">Tanggal Pinjam</label>
+                        <input
+                            type="date"
+                            id="tanggal"
+                            name="tanggal"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="alat">Pilih Alat</label>
+
+                        <select
+                            id="alat"
+                            name="alat"
+                            required
+                        >
+                            <option value="">-- Pilih Alat --</option>
+                            <option value="Kabel UTP">Kabel UTP</option>
+                            <option value="Router">Router</option>
+                            <option value="Tang Crimping">
+                                Tang Crimping
+                            </option>
+                            <option value="Switch">Switch</option>
+                            <option value="Tester Kabel">
+                                Tester Kabel
+                            </option>
+                        </select>
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="tombol-utama tombol-submit"
+                    >
+                        Ajukan Peminjaman
+                    </button>
+
+                </form>
+
+            </div>
+        </section>
+
+
+        <!-- VIDEO -->
+        <section class="video-section">
+            <div class="container">
+
+                <div class="section-title">
+                    <p class="label">KESELAMATAN</p>
+                    <h2>Panduan Keselamatan Laboratorium</h2>
+                </div>
+
+                <div class="video-container">
+
+                    <video controls>
+                        <source
+                            src="assets/panduan-keselamatan-labolatorium.mp4"
+                            type="video/mp4"
+                        >
+                        Browser Anda tidak mendukung video.
+                    </video>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- LOKASI -->
+        <section id="lokasi" class="lokasi">
+            <div class="container">
+
+                <div class="section-title">
+                    <p class="label">LOKASI</p>
+                    <h2>Lokasi Laboratorium</h2>
+                </div>
+
+                <div class="map-container">
+
+                    <iframe
+                        src="https://www.google.com/maps?q=sekolah&output=embed"
+                        width="100%"
+                        height="400"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        title="Lokasi Laboratorium"
+                    >
+                    </iframe>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+                <h3>Portal Lab RPL</h3>
+                <p>
+                    Sistem Informasi Laboratorium
+                </p>
+            </div>
+
+            <div>
+                <p>
+                    &copy; 2026 Portal Lab RPL.
+                    Semua hak dilindungi.
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
